@@ -1,0 +1,11 @@
+Nuevo
+=========
+npx create-react-app exelia
+cd exelia
+npm install
+npm start
+
+
+react router dom
+npm install react-router-dom
+
