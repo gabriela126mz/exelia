@@ -1,6 +1,6 @@
-/* Estilos generales para el Navbar */
+
 nav {
-  background-color: #b3cde0; /* Fondo azul suave */
+  background-color: #b3cde0; 
   padding: 0.8rem 2rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -37,7 +37,7 @@ nav {
   color: #005fa3;
 }
 
-/* Responsive para móviles (pantallas menores a 768px) */
+
 @media (max-width: 768px) {
   .nav-content {
     flex-direction: column;
@@ -45,7 +45,7 @@ nav {
   }
 
   #logo {
-    width: 170px; /* Aumentado para móvil */
+    width: 170px; 
     margin: 0 auto 10px auto;
     display: block;
   }
@@ -60,10 +60,9 @@ nav {
   }
 }
 
-/* Responsive para pantallas muy pequeñas */
 @media (max-width: 480px) {
   #logo {
-    width: 180px; /* Más grande en pantallas muy pequeñas */
+    width: 180px;
   }
 
   .nav-links a {
