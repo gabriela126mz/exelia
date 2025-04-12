@@ -1,7 +1,7 @@
 /* Estilos generales para el Navbar */
 nav {
   background-color: #b3cde0; /* Fondo azul suave */
-  padding: 0.8rem 2rem; /* Reduce un poco el alto del navbar */
+  padding: 0.8rem 2rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -14,30 +14,30 @@ nav {
 }
 
 #logo {
-  width: 145px; /* Tamaño más grande del logo */
+  width: 145px;
   height: auto;
   margin-right: 20px;
 }
 
 .nav-links {
   display: flex;
-  gap: 30px; /* Espacio un poco mayor entre los enlaces */
+  gap: 30px;
   align-items: center;
 }
 
 .nav-links a {
-  color: #003366; /* Azul oscuro para los enlaces */
+  color: #003366;
   text-decoration: none;
-  font-size: 1.4rem; /* Aumentamos el tamaño de la fuente */
+  font-size: 1.4rem;
   font-weight: 600;
   transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-  color: #005fa3; /* Azul más vibrante al pasar el mouse */
+  color: #005fa3;
 }
 
-/* Modo responsivo para dispositivos móviles */
+/* Responsive para móviles (pantallas menores a 768px) */
 @media (max-width: 768px) {
   .nav-content {
     flex-direction: column;
@@ -45,27 +45,28 @@ nav {
   }
 
   #logo {
-    width: 120px; /* Tamaño del logo más pequeño */
-    margin-bottom: 10px; /* Espacio debajo del logo */
+    width: 170px; /* Aumentado para móvil */
+    margin: 0 auto 10px auto;
+    display: block;
   }
 
   .nav-links {
     flex-direction: column;
-    gap: 20px; /* Aumenta el espacio entre los enlaces en móvil */
+    gap: 20px;
   }
 
   .nav-links a {
-    font-size: 1.2rem; /* Aumentamos el tamaño de la fuente en móvil */
+    font-size: 1.2rem;
   }
 }
 
+/* Responsive para pantallas muy pequeñas */
 @media (max-width: 480px) {
-  /* Para pantallas más pequeñas */
   #logo {
-    width: 100px; /* Logo más pequeño en pantallas muy pequeñas */
+    width: 180px; /* Más grande en pantallas muy pequeñas */
   }
 
   .nav-links a {
-    font-size: 1.1rem; /* Aumentamos el tamaño de la fuente en pantallas pequeñas */
+    font-size: 1.1rem;
   }
 }

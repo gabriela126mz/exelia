@@ -5,7 +5,13 @@ cd exelia
 npm install
 npm start
 
+=======
 
 react router dom
 npm install react-router-dom
 
+========
+
+git add .
+git commit -m "home inicial"
+git push origin main
