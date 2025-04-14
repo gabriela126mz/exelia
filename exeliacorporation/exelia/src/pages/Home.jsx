@@ -10,12 +10,12 @@ export default function Home() {
       <div className="home-container">
         <div className="card">
           <h2>CAPACITACIÓN DE VENTAS</h2>
-          <p> Potencia tus ventas una formación intensiva en técnicas de alto impacto, neuroventas y cierre efectivo.</p>
+          <p> Potencia tus ventas una formación intensiva en técnicas de alto impacto y cierre efectivo.</p>
         </div>
 
         <div className="card">
           <h2>DISEÑO PUBLICITARIO</h2>
-          <p>Creamos contenido visual impactante para redes sociales, videos y más, adaptado a las necesidades de tu negocio.</p>
+          <p>Creamos contenido visual impactante para redes sociales y más, adaptado a las necesidades de tu negocio.</p>
         </div>
 
         <div className="card">
