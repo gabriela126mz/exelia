@@ -20,13 +20,13 @@ export default function About() {
         <b>¿Por qué trabajar con un partner digital?</b><br/>
         En Exelia entendemos que el éxito no se construye solo. Por eso, nos convertimos en tu partner digital, acompañándote en cada paso para que puedas:
  
-      Lanzar o hacer crecer tu negocio online.
+        🔹 Lanzar o hacer crecer tu negocio online.<br></br>
 
-      Acceder a oportunidades reales de trabajo freelance.
+        🔹 Acceder a oportunidades reales de trabajo freelance.<br></br>
 
-      Capacitarte en ventas, marketing y presencia digital.
+        🔹 Capacitarte en ventas, marketing y presencia digital.<br></br>
 
-      Tener respaldo, asesoría y contenido listo para atraer clientes.<br></br>
+        🔹 Tener respaldo, asesoría y contenido listo para atraer clientes.<br></br>
       <br></br>
       <b>¿Por qué elegir Exelia?</b><br></br>
       Formación constante: Ventas, diseño publicitario, marketing y más.<br></br>
