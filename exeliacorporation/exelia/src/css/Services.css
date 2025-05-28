@@ -27,11 +27,13 @@
   .service-list {
     list-style-type: none;
     padding-left: 0;
+    color: #555;
+    font-size: 1.1rem;
   }
   
   .service-list li {
     font-size: 1rem;
-    color: #333;
+    color: #555;
     margin-bottom: 15px;
   }
   

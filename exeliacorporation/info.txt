@@ -15,3 +15,19 @@ npm install react-router-dom
 git add .
 git commit -m "home inicial"
 git push origin main
+
+=====
+git hub pages
+
+npm run deploy
+
+
+=============
+exelia.vercel.app/
+
+git hub pages
+
+Subir a git hub 
+
+
+npm run deploy
