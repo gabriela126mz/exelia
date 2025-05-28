@@ -31,3 +31,16 @@ Subir a git hub
 
 
 npm run deploy
+
+============
+actualizar pag
+===========
+
+git add .
+git commit -m "Actualización del código"
+git push origin main
+
+=======
+
+ejecutamos
+npm run deploy
