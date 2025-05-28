@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/exelia/static/css/main.e2750f56.css",
+    "main.js": "/exelia/static/js/main.394374ed.js",
+    "index.html": "/exelia/index.html",
+    "main.e2750f56.css.map": "/exelia/static/css/main.e2750f56.css.map",
+    "main.394374ed.js.map": "/exelia/static/js/main.394374ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2750f56.css",
+    "static/js/main.394374ed.js"
+  ]
+}
