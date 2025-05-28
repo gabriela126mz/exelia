@@ -56,7 +56,7 @@ al nivel del exelia corporation
 git add .
 git commit -m "Descripción breve"
 git push origin main
-
+git push
 
 Vercel detecta el push y redeployea en https://exelia.vercel.app automáticamente.
 
