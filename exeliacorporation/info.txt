@@ -44,3 +44,25 @@ git push origin main
 
 ejecutamos
 npm run deploy
+
+=======
+final
+cd exelia
+npm install
+npm start
+
+git hub 
+al nivel del exelia corporation
+git add .
+git commit -m "Descripción breve"
+git push origin main
+
+
+Vercel detecta el push y redeployea en https://exelia.vercel.app automáticamente.
+
+Si quieres forzar un deploy (por si tardara):
+
+Entra a tu proyecto en Vercel → Deployments → New Deployment → Deploy 
+git hub(https://github.com/gabriela126mz/exelia)
+
+Verifica en https://exelia.vercel.app 

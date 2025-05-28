@@ -4,7 +4,7 @@ export default function Services() {
   return (
     <div className="services-container">
       <section className="service-section">
-        <h2>🚀DOMINA EL ARTE DE VENDER CON EXELIA</h2>
+        <h2>DOMINA EL ARTE DE VENDER CON EXELIA</h2>
         <p className="service-description">
           Domina las herramientas que todo vendedor necesita para sobresalir.
           <br></br>
@@ -19,14 +19,11 @@ export default function Services() {
           <li><strong>Venta activa y pasiva:</strong> Aprende a vender incluso sin vender.</li>
           <li><strong>Gestión de reclamos:</strong> Transforma objeciones en oportunidades.</li>
         </ul>
-
-        💡 Ideal para emprendedores, vendedores y equipos comerciales.<br></br>
-        📲 Pregúntanos por las modalidades presencial u online.
         </p>
       </section>
 
       <section className="service-section">
-        <h2>🎨 IMAGEN QUE VENDE</h2>
+        <h2>IMAGEN QUE VENDE</h2>
         <p className="service-description">
         Haz que tu marca destaque con contenido visual de alto impacto        
         
@@ -37,8 +34,6 @@ export default function Services() {
           <li><strong>Videos comerciales:</strong> Promociona tu negocio con estilo.</li>
           <li><strong>Tarjetas e invitaciones:</strong> Material gráfico 100% personalizado.</li>
         </ul>
-        💡 Para emprendedores, marcas personales y negocios que quieren destacar en digital.<br></br>
-        📲 Escríbenos y llevamos tu imagen al siguiente nivel.
         </p>
       </section>
 
@@ -55,8 +50,6 @@ export default function Services() {
           <li><strong>Mentalidad ganadora:</strong> Te formamos para pensar en grande y lograr más.</li>
           <li><strong>Cumple tus sueños: </strong> Haz del trabajo freelance tu trampolín al éxito.</li>
         </ul>
-        💡 Ideal para quienes quieren independencia, ingresos reales y crecimiento personal.<br></br>
-        📲 Escríbenos y da el primer paso hacia tu libertad.
         </p>
       </section>
     </div>
