@@ -15,12 +15,10 @@
   },
   "homepage": ".",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build && javascript-obfuscator build --output build --compact true --self-defending true",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +40,8 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",
-    "javascript-obfuscator": "^4.1.1"
+    "javascript-obfuscator": "^4.1.1",
+    "react-app-rewired": "^2.2.1",
+    "webpack-obfuscator": "^3.5.1"
   }
 }
