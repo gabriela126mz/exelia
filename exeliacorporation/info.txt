@@ -58,6 +58,8 @@ git commit -m "Descripción breve"
 git push origin main
 git push
 
+https://vercel.com/
+
 Vercel detecta el push y redeployea en https://exelia.vercel.app automáticamente.
 
 Si quieres forzar un deploy (por si tardara):

@@ -46,7 +46,6 @@ export default function Services() {
         <ul className="service-list">
           <li><strong>Libertad total:</strong> Gestiona tu tiempo y trabaja desde donde quieras.</li>
           <li><strong>Oportunidades globales:</strong> Oportunidades que benefician a consumidores de todo el mundo.</li>
-          <li><strong>Mentalidad ganadora:</strong> Conecta con clientes y proyectos en todo el mundo.</li>
           <li><strong>Mentalidad ganadora:</strong> Te formamos para pensar en grande y lograr más.</li>
           <li><strong>Cumple tus sueños: </strong> Haz del trabajo freelance tu trampolín al éxito.</li>
         </ul>
