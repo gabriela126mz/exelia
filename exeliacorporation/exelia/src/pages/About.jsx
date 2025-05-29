@@ -18,7 +18,7 @@ export default function About() {
       </p>
       <p className="about-description">
         <b>¿Por qué trabajar con un partner digital?</b><br/>
-        En Exelia entendemos que el éxito no se construye solo. Por eso, nos convertimos en tu partner digital, acompañándote en cada paso para que puedas:
+        En Exelia entendemos que el éxito no se construye solo. Por eso, nos convertimos en tu partner digital, acompañándote en cada paso para que puedas:<br></br>
  
         🔹 Lanzar o hacer crecer tu negocio online.<br></br>
 

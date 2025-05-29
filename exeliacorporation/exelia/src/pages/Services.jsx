@@ -26,7 +26,7 @@ export default function Services() {
         <h2>IMAGEN QUE VENDE</h2>
         <p className="service-description">
         Haz que tu marca destaque con contenido visual de alto impacto        
-        
+        <br></br>
         🔹 ¿Qué te ofrecemos?
         <ul className="service-list">
           <li><strong>Diseños para redes: </strong>  Imágenes y posts que venden.</li>
@@ -41,7 +41,7 @@ export default function Services() {
         <h2>TRABAJA DESDE CASA</h2>
         <p className="service-description">
         Trabaja desde casa, gana en grande y construye el estilo de vida que sueñas.
-       
+       <br></br>
         🔹 ¿Qué te ofrecemos?
         <ul className="service-list">
           <li><strong>Libertad total:</strong> Gestiona tu tiempo y trabaja desde donde quieras.</li>
