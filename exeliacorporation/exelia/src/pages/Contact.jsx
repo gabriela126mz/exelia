@@ -9,16 +9,14 @@ export default function Contact() {
       </p>
 
       <div className="contact-info">
-        {/* Tarjeta para Mario */}
         <div className="contact-card">
-          <h3>Mario</h3>
+          <h3>Mario García</h3>
           <p><strong>Teléfono:</strong> +34 610 197 239</p>
           <p><strong>Email:</strong> <a href="mailto:exeliastore@gmail.com">exeliastore@gmail.com</a></p>
         </div>
 
-        {/* Tarjeta para Gabriela */}
         <div className="contact-card">
-          <h3>Gabriela</h3>
+          <h3>Gabriela Malasquez</h3>
           <p><strong>Teléfono:</strong> +34 692 2092 04</p>
           <p><strong>Email:</strong> <a href="mailto:exeliastore@gmail.com">exeliastore@gmail.com</a></p>
         </div>
