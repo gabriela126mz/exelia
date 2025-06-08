@@ -11,6 +11,7 @@ export default function Navbar() {
           <Link to="/services">Servicios</Link>
           <Link to="/about">Sobre nosotros</Link>
           <Link to="/contact">Contacto</Link>
+          {/* <Link to="/landingpage">Perfil</Link> */}
         </div>
       </div>
     </nav>

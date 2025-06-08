@@ -67,4 +67,5 @@ Si quieres forzar un deploy (por si tardara):
 Entra a tu proyecto en Vercel → Deployments → New Deployment → Deploy 
 git hub(https://github.com/gabriela126mz/exelia)
 
-Verifica en https://exelia.vercel.app 
+Verifica en https://exelia.vercel.app
+

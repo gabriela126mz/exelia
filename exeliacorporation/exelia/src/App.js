@@ -5,8 +5,8 @@ import Contact from './pages/Contact'
 import Services from './pages/Services'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import LandingPage from './pages/LandingPage'
 import './index.css' 
-
 
 export default function App() {
   return (
@@ -19,6 +19,7 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/landingpage" element={<LandingPage />} />
         </Routes>
       </div>
       <Footer />
