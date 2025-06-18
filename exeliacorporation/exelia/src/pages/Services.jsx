@@ -1,7 +1,13 @@
 import '../css/Services.css';
+import { Helmet } from 'react-helmet';
 
 export default function Services() {
   return (
+    <>
+     <Helmet>
+        <title>Servicios | Exelia Studio</title>
+        <meta name="description" content="Descubre nuestros servicios: publicidad, automatización, diseño web y más para hacer crecer tu negocio." />
+      </Helmet>
     <div className="services-container">
 
       <section className="service-section">
@@ -51,5 +57,6 @@ export default function Services() {
       </section>
 
     </div>
+    </>
   );
 }
