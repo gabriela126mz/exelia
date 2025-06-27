@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet';
 import '../css/LandingPage.css';
-//landingpage
+
 export default function Home() {
   return (
     <>
@@ -35,19 +35,26 @@ export default function Home() {
           ¿Tienes un negocio, un talento o una idea con potencial?<br />
           Nosotros te ayudamos a que lo vea el mundo.
         </p>
-        <a href="#contacto" className="btn">Quiero que mi marca crezca</a>
+       <button
+          className="btn"
+          style={{ border: 'none', outline: 'none' }}
+          onClick={() =>
+            window.open(
+              "https://wa.me/610197239?text=Hola%20Exelia!%20Quiero%20trabajar%20contigo%20",
+              "_blank",
+              "noopener,noreferrer"
+            )
+          }
+        >
+          Quiero que mi marca crezca
+        </button>
       </header>
 
       <section className="destinatarios">
         <div className="contenedor">
           <h2 className="titulo-seccion">Nuestra labor:</h2>
-          <p className="descripcion-seccion">
-            Ayudamos a <span className="destacado">emprendedores</span>,
-            <span className="destacado"> artistas</span>,
-            <span className="destacado"> negocios locales</span>,
-            <span className="destacado"> profesionales</span>,
-            <span className="destacado"> influencers</span> y
-            <span className="destacado"> marcas emergentes</span> a vender más y mostrarse mejor.
+          <p>
+          Sabemos que cuando estas empezando o creciendo, lo que necesitas es claridad para que tu marca brille con fuerza. No solo te ofrecemos servicios, sino que te acompañamos con criterio y alma, caminando juntos en cada paso. Nuestro compromiso es ayudarte a vender más y mostrar lo mejor de ti, porque trabajamos con personas reales, no solo con marcas.
           </p>
         </div>
       </section>
@@ -61,7 +68,7 @@ export default function Home() {
           </div>
           <div className="card">
             <h3>🌐 Webs y Automatización</h3>
-            <p>Landing pages, webs profesioales, código QR ,automatización por WhatsApp para que tu marca trabaje sola.</p>
+            <p>Landing pages, webs profesionales, código QR ,automatización por WhatsApp para que tu marca trabaje sola.</p>
           </div>
           <div className="card">
             <h3>🎥 Contenido profesional y emocional</h3>
@@ -89,7 +96,7 @@ export default function Home() {
       </section>
 
       <a
-        href="https://wa.me/692209204?text=Hola!%20Quiero%20trabajar%20contigo%20"
+        href="https://wa.me/610197239?text=Hola Exelia!%20Quiero%20trabajar%20contigo%20"
         className="whatsapp-float"
         target="_blank"
         rel="noopener noreferrer"

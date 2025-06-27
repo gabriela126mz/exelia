@@ -4,67 +4,71 @@ import { Helmet } from 'react-helmet';
 export default function Services() {
   const services = [
     {
-      title: "Publicidad",
+      title: "Webs y Automatización",
       includes: [
-        "Sitio web responsivo",
-        "Optimización SEO básica",
-        "Integración con redes sociales",
+        "Web adaptable a cualquier pantalla",
+        "Optimización SEO y SEM",
+        "Landing page moderna y efectiva",
         "Formulario de contacto funcional",
+        "Dominio y hosting",
       ],
-      price: "100€",
+      price: "600€",
       message: "Hola Exelia, estoy interesado/a en el servicio de Publicidad. ¿Podrías contarme más?"
     },
     {
-      title: "Webs y Automatización",
+      title: "Creación de videos y anuncios",
       includes: [
-        "Gestión de campañas en Instagram y Facebook",
-        "Informes semanales de rendimiento",
+        "Gestión de campañas Meta Ads , Google Ads,  Tik Tok Ads, Youtube Ads",
+        "Informes semanales de rendimiento publicitarios",
         "Diseño de anuncios publicitarios",
       ],
-      price: "80€",
+      price: "250€",
       message: "Hola Exelia, quiero más información sobre el servicio de Webs y Automatización."
     },
     {
       title: "Contenido Profesional",
       includes: [
-        "Tienda online personalizada",
-        "Pasarela de pago integrada",
-        "Gestión de productos y stock",
-        "Diseño atractivo y funcional",
+        "Planificación y guionización semanal",
+        "Edición profesional con efectos y música de tendencia",
+        "Adaptaciones por formato (stories, carruseles, reels)",
+        "Creación de Reels, videos, fotos y piezas gráficas",
       ],
-      price: "150€",
+      price: "300€",
       message: "Hola Exelia, me interesa el servicio de Contenido profesional. ¿Me das más detalles?"
     },
     {
       title: "Identidad Visual",
       includes: [
-        "Logo profesional",
-        "Manual de marca básico",
+        "Identidad y branding estratégico profesional",
         "Paleta de colores y tipografías",
         "Diseño de tarjetas digitales",
+        "Plantillas gráficas base para redes o presentaciones"
       ],
-      price: "90€",
+      price: "250€",
       message: "Hola Exelia, quiero saber más sobre el servicio de Identidad visual."
     },
+    
     {
       title: "Formación y Mentoría",
       includes: [
-        "Calendario de publicaciones",
-        "Contenido gráfico semanal",
-        "Estrategia de crecimiento orgánico",
+        "Diagnóstico comercial inicial",
+        "Capacitación en técnicas de venta dinámica",
+        "Revisión y mejora de procesos",
+        "Diagnóstico comercial inicial",
+        "Soporte por WhatsApp",
       ],
-      price: "70€",
+      price: "350€",
       message: "Hola Exelia, me interesa la Formación y Mentoría. ¿Podemos hablar?"
     },
     {
-      title: "Mantenimiento Digital",
+      title: "Consultoría Digital",
       includes: [
         "Asesoría en automatización y digitalización",
         "Revisión de procesos actuales",
         "Recomendaciones tecnológicas",
       ],
-      price: "60€",
-      message: "Hola Exelia, quisiera más info sobre el Mantenimiento digital. ¡Gracias!"
+      price: "99€",
+      message: "Hola Exelia, quisiera más info sobre Consultoría digital. ¡Gracias!"
     },
   ];
 
@@ -92,7 +96,7 @@ export default function Services() {
                   <li key={i}>✔ {item}</li>
                 ))}
               </ul>
-              <p className="service-price">Total: {service.price}</p>
+              <p className="service-price">Desde: {service.price}</p>
               <a
                 className="service-button"
                 href={`https://wa.me/34610197239?text=${encodeURIComponent(service.message)}`}

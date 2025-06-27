@@ -3,40 +3,44 @@ import '../css/about.css';
 export default function About() {
   return (
     <div className="about-container">
-      <h3 className="about-title">Conectando oportunidades, transformando vidas</h3>
+      <h3 className="about-title">Conectamos ideas con resultados reales</h3>
       <p className="about-description">
-      Exelia nace con un propósito claro: revolucionar el mundo del trabajo freelance y el crecimiento digital. En un entorno cada vez más digitalizado, ofrecemos mucho más que servicios: somos tu partner digital para crecer, emprender y alcanzar tus metas.
-
-      Desde la comodidad de tu hogar, puedes acceder a un modelo de negocio probado, conectar con mercados internacionales y brindar soluciones reales a personas y negocios en todo el mundo.
+      En un mundo cada vez más competitivo y digital, Exelia nace con una misión clara: ayudar a marcas, negocios y profesionales a crecer de forma consciente, estratégica y efectiva.
+      Ya no hablamos de solo estar online: hablamos de destacar, conectar y vender.
+      <br></br>
+      Somos una agencia de marketing digital especializada en soluciones digitales personalizadas, que combina estrategia, diseño y tecnología para impulsar negocios con alma.
       </p>
+
+      <p className="about-description">
       <b> Nuestra visión:</b><br></br>
-      <p className="about-description">
-      Empoderar a quienes buscan un cambio. Te damos las herramientas, la formación y el acompañamiento necesario para cumplir tus sueños, mejorar tu estilo de vida y alcanzar independencia financiera.
-            
-      A través de productos de alto valor y servicios digitales personalizados, ofrecemos beneficios tangibles tanto a los consumidores como a nuestros colaboradores.
+        Empoderar a emprendedores, negocios minoristas, centros de salud, franquicias y marcas personales para que:<br></br>
 
-      </p>
+        🔹 Aumenten sus ventas con procesos más inteligentes.<br></br>
+        🔹 Construyan una imagen potente y coherente.<br></br>
+        🔹 Se apoyen en tecnología accesible para crecer con orden.<br></br>
+        🔹 Tengan acompañamiento real, sin promesas vacías.<br></br>
+        Nos mueve ver a nuestros clientes crecer con propósito, diseño y resultados medibles.
+     </p>
       <p className="about-description">
         <b>¿Por qué trabajar con un partner digital?</b><br/>
-        En Exelia entendemos que el éxito no se construye solo. Por eso, nos convertimos en tu partner digital, acompañándote en cada paso para que puedas:<br></br>
+        Porque no vendemos servicios sueltos: construimos contigo estrategias completas que funcionan.<br></br>
  
-        🔹 Lanzar o hacer crecer tu negocio online.<br></br>
+        🔹 Creamos tu presencia digital desde cero: web, identidad, contenido y automatización.<br></br>
 
-        🔹 Acceder a oportunidades reales de trabajo freelance.<br></br>
+        🔹 Diseñamos campañas que venden: en Meta, Google, YouTube, TikTok o donde esté tu cliente.<br></br>
 
-        🔹 Capacitarte en ventas, marketing y presencia digital.<br></br>
+        🔹 Formamos y capacitamos equipos reales: desde atención hasta cierre de ventas.<br></br>
 
-        🔹 Tener respaldo, asesoría y contenido listo para atraer clientes.<br></br>
+        🔹 Auditamos tu negocio digital: para ordenar, automatizar y multiplicar tus oportunidades.<br></br>
       <br></br>
       <b>¿Por qué elegir Exelia?</b><br></br>
-      Formación constante: Ventas, diseño publicitario, marketing y más.<br></br>
+        🔹 Atención personalizada, no soluciones genéricas.<br></br>
 
-      Trabajo desde casa: Libertad real con ingresos reales.<br></br>
+        🔹 Estilo cercano, profesional y orientado a resultados<br></br>
 
-      Conexión global: Impacta en tu entorno y más allá.<br></br>
+        🔹 Acompañamiento real, con seguimiento y mejoras continuas.<br></br>
 
-      Herramientas listas para usar: No estás solo, estás acompañado.
-
+        🔹 Creatividad con estrategia: cada paso tiene un porqué<br></br><br></br>
       </p>
     </div>
   );
