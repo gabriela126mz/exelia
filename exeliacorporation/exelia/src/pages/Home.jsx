@@ -4,10 +4,11 @@ import '../css/LandingPage.css';
 export default function Home() {
   return (
     <>
-      <Helmet>
-        <title>Exelia Studio - Inicio</title>
-        <meta name="description" content="Creamos campañas de alto impacto visual y estrategias de crecimiento digital para marcas únicas." />
-      </Helmet>
+    <Helmet>
+      <title>Exelia Studio - Ayudamos a que tu marca crezca</title>
+      <meta name="description" content="Creamos campañas de alto impacto visual y estrategias de crecimiento digital para marcas únicas." />
+    </Helmet>
+
 
      <div className="landing-page">
       <section className="carousel full-width-section">

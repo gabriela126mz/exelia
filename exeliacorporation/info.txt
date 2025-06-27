@@ -69,3 +69,5 @@ git hub(https://github.com/gabriela126mz/exelia)
 
 Verifica en https://exelia.vercel.app
 
+SEO
+https://search.google.com/search-console/welcome?utm_source=about-page
