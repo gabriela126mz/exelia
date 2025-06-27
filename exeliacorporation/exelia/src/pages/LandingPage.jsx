@@ -34,23 +34,24 @@ export default function LandingPage() {
 
       <section className="destinatarios">
         <div className="contenedor">
-          <h2 className="titulo-seccion">¿A quién va dirigido?</h2>
+          <h2 className="titulo-seccion">Nuestra labor:</h2>
           <p className="descripcion-seccion">
             Ayudamos a <span className="destacado">emprendedores</span>,
             <span className="destacado"> artistas</span>,
             <span className="destacado"> negocios locales</span>,
-            <span className="destacado"> profesionales</span> y
+            <span className="destacado"> profesionales</span>,
+            <span className="destacado"> influencers</span> y
             <span className="destacado"> marcas emergentes</span> a vender más y mostrarse mejor.
           </p>
         </div>
       </section>
 
       <section>
-        <h2>¿Qué hacemos por ti?</h2>
+        <h2>Exelia te ofrece:</h2>
         <div className="cards-container">
           <div className="card">
             <h3>📣 Publicidad que conecta</h3>
-            <p>Campañas en Meta y Google diseñadas para atraer al público correcto.</p>
+            <p>Campañas en Meta ads y Google ads diseñadas para atraer al público correcto.</p>
           </div>
           <div className="card">
             <h3>🌐 Webs & Automatización</h3>
@@ -58,26 +59,26 @@ export default function LandingPage() {
           </div>
           <div className="card">
             <h3>🎥 Contenido profesional y emocional</h3>
-            <p>Reels, videos, fotos y piezas gráficas que cuentan tu historia.</p>
+            <p>Reels, videos, fotos y piezas gráficas para crear tu contenido y formar tu comunidad.</p>
           </div>
           <div className="card">
-            <h3>🎨 Identidad visual completa</h3>
-            <p>Logo, tarjetas, branding. Le damos forma a tu esencia.</p>
+            <h3>🎨 Identidad visual </h3>
+            <p>Logotipos, tarjetas, marcas, diseños en 3D. Le damos forma a tu esencia.</p>
           </div>
           <div className="card">
-            <h3>🧠 Formación & mentoría</h3>
-            <p>Te damos herramientas para que entiendas, crezcas y decidas con confianza.</p>
+            <h3>🧠 Formación y mentoría</h3>
+            <p>Te damos herramientas para que entiendas, crezcas y decidas con confianza a la hora de exponer tu idea en el mercado.</p>
           </div>
           <div className="card">
             <h3>🛠️ Mantenimiento digital</h3>
-            <p>Actualizamos y damos soporte continuo para tu tranquilidad.</p>
+            <p>Actualizamos y damos soporte continuo a tus redes sociales para mayor efectivadad.</p>
           </div>
         </div>
       </section>
 
       <section className="cta" id="contacto">
         <p>
-          Tu marca no necesita perfección. Necesita ser vista. Nosotros te ayudamos a mostrarla.
+          Mostramos tu marca con impacto y autenticidad.
         </p>
       </section>
 
